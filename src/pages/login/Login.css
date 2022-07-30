@@ -1,0 +1,41 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:   url("hotel-bookingapp.png");
+}
+.lContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.lheader{
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 30px;
+    color:blue;
+    font-weight: 600;
+    font-size: 30px;
+    /* background-color: pink; */
+}
+.lInput{
+    height: 30px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+}
+.lButton{
+    border:none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
